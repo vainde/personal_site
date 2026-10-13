@@ -1,5 +1,13 @@
 import './App.css';
 import fall from './fall.jpg'
+import amphy from './amphy.gif'
+import mud from './mud.gif'
+import starly from './starly.gif'
+import typh from './typh.gif'
+import burger from './quarter_pounder.JPG'
+import naoto from './naoto.png'
+import rise from './rise.jpg'
+
 function App() {
   return (
     <div className='App'>
@@ -12,6 +20,17 @@ function App() {
         </p>
         <br/><br/><br/><br/>
 
+        <h2>favorite things</h2>
+        <div id="favorite">
+          <img src={amphy} alt={amphy} width={100} height={100}/>
+          <img src={mud} alt={mud} width={100} height={100}/>
+          <img src={starly} alt={starly} width={70} height={70}/>
+          <img src={typh} alt={typh} width={100} height={100}/>
+          <img src={burger} alt={burger} width={100} height={100}/>
+          <img src={naoto} alt={naoto} width={100} height={100}/>
+          <img src={rise} alt={rise} width={100} height={100}/>
+          <p>from left to right: ampharos, mudkip, starly, typhlosion, quarter pounder with cheese (plain), naoto from persona 4 and rise from persona 4</p>
+        </div>
         <h2>personality</h2>
         <p>
           i am introverted, but i do enjoy talking to people. i love people, everyone is fun. i am pretty reserved and opening up is not something i do often. 

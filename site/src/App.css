@@ -4,6 +4,7 @@
   min-height: 100vh;
   min-width: 100vh;
   background-color:rgb(242, 217, 185);
+  font-family:Arial, Helvetica, sans-serif
 }
 .title{
   text-align: center;
@@ -32,5 +33,9 @@ h2 {
 p{
   margin-right: 10em;
   margin-left: 5em;
-  color: rgb(95, 71, 41);
+  color: rgb(142, 94, 43);
+}
+
+#favorite{
+  margin-left: 5em;
 }
