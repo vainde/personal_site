@@ -1,4 +1,36 @@
 .App {
+  text-align:justify;
+  margin-left: 20px;
+  min-height: 100vh;
+  min-width: 100vh;
+  background-color:rgb(242, 217, 185);
+}
+.title{
   text-align: center;
+  color: rgb(194, 106, 55);
 }
 
+#fall {
+  float: left;
+  margin-left: 30em;
+  margin-right: 1em;
+  width: 10em;
+  height: 10em;
+}
+
+#about {
+  margin-left: 10em;
+  font-weight: 500;
+  color: rgb(186, 87, 54);
+}
+
+h2 {
+  margin-right: 5em;
+  margin-left: 3em;
+  color: rgb(194, 144, 93);
+}
+p{
+  margin-right: 10em;
+  margin-left: 5em;
+  color: rgb(95, 71, 41);
+}
