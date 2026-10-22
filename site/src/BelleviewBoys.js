@@ -5,6 +5,8 @@ function BelleviewBoys(){
   return(
     <div>
     <h1>what is belleview boys?</h1>
+    <p>Date Written: 20/10/2026</p>
+    <p>Last Updated: 21/10/2026</p>
     <h2>summary</h2>
     <p>
       Belleview Boys is an upcoming turn based role-playing game set in the western world during the early 2010's.

@@ -19,7 +19,7 @@ function Home(){
           i wanted a space to talk a lot, share my growth and cool things i am up to. 
         </p>
         <br/><br/><br/><br/>
-
+        <p>Last Updated: 21/10/2026</p>
         <h2>recent posts</h2>
         <nav>
           <Link to="/belleview">Working on Belleview Boys</Link>

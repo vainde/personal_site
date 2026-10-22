@@ -25,6 +25,10 @@
   color: rgb(186, 87, 54);
 }
 
+nav{
+  margin-left: 5em;
+}
+
 h1, h2 {
   margin-right: 5em;
   margin-left: 3em;
