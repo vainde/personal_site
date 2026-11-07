@@ -6,7 +6,7 @@ import typh from './images/typh.gif'
 import burger from './images/quarter_pounder.JPG'
 import naoto from './images/naoto.png'
 import rise from './images/rise.jpg'
-import {Link} from 'react-router-dom'
+//import {Link} from 'react-router-dom'
 
 function Home(){
   return(
