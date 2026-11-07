@@ -1,4 +1,4 @@
-import fall from './images/fall.jpg'
+import pfp from './images/pfp.jpg'
 import amphy from './images/amphy.gif'
 import mud from './images/mud.gif'
 import starly from './images/starly.gif'
@@ -11,21 +11,42 @@ import {Link} from 'react-router-dom'
 function Home(){
   return(
     <div className='App'>
-      <header>
-        <h1 className='title'>personal blog </h1>
-        <img id='fall' src={fall} alt={fall} width={200} height={200}/><br/><br/>
-        <p id="about">
-          hi guys, my name is alex.
-          i wanted a space to talk a lot, share my growth and cool things i am up to. 
-        </p>
-        <br/><br/><br/><br/>
-        <p>Last Updated: 21/10/2026</p>
-        <h2>recent posts</h2>
-        <nav>
-          <Link to="/belleview">Working on Belleview Boys</Link>
-        </nav>
+        <div id='header-container'>
+          <header>
+            <div id='header-title'>
+              <h1 className='title'>Alex's Blog</h1>
+            </div>
+            <div id='header-info'>
+              <img id='fall' src={pfp} alt={pfp} width={200} height={200}/>
+              <p>
+                Alex<br/>
+                <b className='stat'>LVL</b> 22<br/>
+                <b className='stat'>BIRTH</b> April 1<br/>
+                <b className='stat'>OCC</b> Student<br/>
+                <b className='stat'>ATK</b>  650<br/>
+                <b className='stat'>DEF</b> 320<br/>
+                <b className='stat'>SPD</b> 400<br/>
+              </p>
+            </div>
+          </header>
+        </div>
 
-        <h2>favorite things</h2>
+        <div id='last-updated-container'>
+          <div id='last-updated-text'>
+            <h2>Last Updated</h2>
+            <p>06/11/2026</p>
+          </div>
+          <div id='recent-posts'>
+            <h2>Recent Posts</h2>
+            <p>Under Construction</p>
+            <nav>
+              {/*
+              <Link to="/belleview">Working on Belleview Boys</Link> */}
+            </nav>
+          </div>
+        </div>
+
+        <h2>Favorite Things</h2>
         <div id="favorite">
           <img src={amphy} alt={amphy} width={100} height={100}/>
           <img src={mud} alt={mud} width={100} height={100}/>
@@ -36,7 +57,7 @@ function Home(){
           <img src={rise} alt={rise} width={100} height={100}/>
           <p>from left to right: ampharos, mudkip, starly, typhlosion, quarter pounder with cheese (plain), naoto from persona 4 and rise from persona 4</p>
         </div>
-        <h2>personality</h2>
+        <h2>Personality</h2>
         <p>
           i am introverted, but i do enjoy talking to people. i love people, everyone is fun. i am pretty reserved and opening up is not something i do often. 
           it does not come natural to me, although i would be more comfortable with the idea if i know someone well. i like to joke around a lot and i do make myself laugh. i think i can be pretty funny and have ZERO SHAME admitting that. 
@@ -51,7 +72,7 @@ function Home(){
           MBTI: INTJ
         </p>
 
-        <h2>communication</h2>
+        <h2>Communication</h2>
         <p>
           i am typically straightforward and direct unless i am "monologuing" or "infodumping". 
           i take what people say literally and sometimes have a hard time understanding jokes or if someone is being serious. 
@@ -63,9 +84,9 @@ function Home(){
           i enjoy learning about people and asking questions so I like others doing the same with me.
         </p>
 
-        <h2>interests</h2>
+        <h2>Interests</h2>
 
-        <h3>video gam</h3>
+        <h3>Video Games</h3>
         <p>
         for video games I enjoy a lot of jrpgs with turn based combat. some of those are pokemon, persona and final fantasty. my favorite
         pokemon games are pokemon pearl, pokemon white 2 and soul silver. pokemon is my favorite game and i have a lot of good memories with it.
@@ -75,7 +96,7 @@ function Home(){
         but stopped cause dude its so dogshit i dont know why i played for so long. an underrated game genre would be boxing. screw "Sports" just "Boxing" and only "Boxing" that shit is fun af
         </p>
 
-        <h3>music</h3>
+        <h3>Music</h3>
         <p>
           i love rock music. any kind of rock music......... shoegaze, indie, hardcore, punk, alt, math rock, emo, nu metal, jrock, crock dooont care all good to me. 
           think its just cause guitar is my favorite instrument of all time. sometimes it is so beautiful it can mimic crying similar to the violin.
@@ -84,7 +105,7 @@ function Home(){
           to learn songs. 
         </p>
 
-        <h3>programming</h3>
+        <h3>Programming</h3>
         <p>
           one of the best things in the world. anything you think of can be made. just like this dumbass blog you are reading...
           fav thing to do with this is make games. its how i learned it even for school stuff, none of that crap made sense early on until i related it to games for some reason.
@@ -95,20 +116,20 @@ function Home(){
           im not sure what else to add ^_^ formally my major (comp sci) but took a little break to get a cert in order to sustain myself
         </p>
 
-        <h3>art</h3>
+        <h3>Art</h3>
         <p>
           its always something i wanted to get better at. so i kinda semi took a little seriously as of late.
           sometimes i can get a bit obsessive over my work; refining it over and over and over.... not necessarily in a perfectionist sense, but i firmly believe anything i do can be improved.
           when i was younger i liked making landscapes and drawing buildings. now i mostly just draw characters.
         </p>
 
-        <h3>cooking</h3>
+        <h3>Cooking</h3>
         <p>i cooka da meatball. im actually really good at whipping stuff up and in another life i would have been a chef. pretty experimental with cooking and do not measure cause i already know what it's gonna taste like and i know exactly how much stuff to add.
           think a lot of things i do are "adding this will balance out this", "this ingredient compliments this or intensifies it", "this can be reduced to x flavor so substituting it will not change much". if that makes any sense.
           its not really something to mull over though i guess. i take great pride in what i do cause i do a great job. maybe one day ill post food pics or somethin'
         </p>
 
-        <h3>mbti and psychology</h3>
+        <h3>MBTI and Psychology</h3>
         <p>
           i am very active on mbti threads where i will often comment on something to share my opinion. thats pretty much the only reason why i like commenting lol.
           but mbti is really cool cause its a nice tool for people to think about themselves more or put things into words. since i cant really describe myself or my feelings well, i find it pretty helpful.
@@ -117,7 +138,7 @@ function Home(){
           its why i tend to ask a lot of questions, usually reduced if i know someone well to the point i already know how they would think about something lol
         </p>
 
-        <h3>pragmatic linguistics</h3>
+        <h3>Pragmatic Linguistics</h3>
         <p>
           i find it really interesting because i find communication fascinating but also wholesome. idk if ill ever shut up about it if i start, but its also my blog.
           people come together with their own opinions, emotions, lexicon, current understanding of semantics behind words and their own internal context of the conversation and people involved. in a context where
@@ -133,7 +154,6 @@ function Home(){
 
           i think this was important to talk about, seeing as this is an online blog. i hope you see why i find this interesting.
         </p>
-        </header>
     </div>
   );
 }
