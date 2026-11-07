@@ -1,4 +1,4 @@
-.App {
+.App{
   text-align:justify;
   min-height: 100vh;
   min-width: 100vh;
@@ -46,6 +46,27 @@
   src: url('../fonts/DRUNKFONTS-Regular.otf')
 }
 
+@font-face {
+  font-family: 'Earwig';
+  src: url('../fonts/earwig\ factory\ rg.otf');
+}
+
+@font-face {
+  font-family: 'ThinFourDown';
+  src: url('../fonts/ThinFourDownThreeCrazyPink.ttf');
+}
+
+@font-face {
+  font-family: 'HelveticaPunk';
+  src: url('../fonts/Helvetica\ Punk.ttf');
+}
+
+h1{
+  font-family: 'Undertown';
+  color: white;
+  font-size: 3rem;
+}
+
 p{
   margin: 30px;
   font-size: 1.125rem;
@@ -53,23 +74,19 @@ p{
   color: white;
 }
 
-h1{
-  font-family: 'Undertown';
-  color:black;
-  font-size: 3rem;
-}
 
 h2{
-  color: rgb(250, 15, 15);
-  font-family: 'Doctor Punk';
+  color: rgb(218, 21, 21);
+  font-family: 'ThinFourDown';
   font-size: 2rem;
 }
 
-h3{
+h3, h4{
   color: rgb(214, 206, 206);
   font-size: 1.5rem;
   font-family: 'Appendix';
 }
+
 .stat{
   color: red
 }
@@ -89,12 +106,12 @@ h3{
   flex-direction: column;
 }
 
-#last-updated-container nav a:active, a:visited, a:link{
-  color: rgb(199, 66, 66);
+nav a:active, a:visited, a:link{
+  color: rgb(255, 255, 255);
 }
 
-#last-updated-container a:hover{
-  color: rgb(175, 17, 17)
+nav a:hover{
+  color: rgb(240, 46, 46)
 }
 
 .title{

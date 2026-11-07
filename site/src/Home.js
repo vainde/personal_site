@@ -6,7 +6,7 @@ import typh from './images/typh.gif'
 import burger from './images/quarter_pounder.JPG'
 import naoto from './images/naoto.png'
 import rise from './images/rise.jpg'
-//import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function Home(){
   return(
@@ -38,10 +38,8 @@ function Home(){
           </div>
           <div id='recent-posts'>
             <h2>Recent Posts</h2>
-            <p>Under Construction</p>
             <nav>
-              {/*
-              <Link to="/belleview">Working on Belleview Boys</Link> */}
+              <Link to="/belleview">Working on Belleview Boys</Link>
             </nav>
           </div>
         </div>
