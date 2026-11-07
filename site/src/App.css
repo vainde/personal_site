@@ -61,30 +61,51 @@
   src: url('../fonts/Helvetica\ Punk.ttf');
 }
 
+@font-face{
+  font-family: 'Cinta';
+  src: url('../fonts/cinta.ttf')
+}
+
 h1{
-  font-family: 'Undertown';
-  color: white;
+  font-family: 'Cinta';
+  background: linear-gradient(to right, white, rgb(227, 226, 226), rgb(174, 174, 174));
+  background-clip: text;
+  color: transparent;
   font-size: 3rem;
 }
 
-p{
-  margin: 30px;
+p, a{
   font-size: 1.125rem;
   font-family: 'Times New Arial';
   color: white;
+  text-align: center;
+}
+
+#last-updated-text, #last-updated-text p{
+  text-align: center;
+}
+p{
+  margin: 20px;
+  text-align: left;
 }
 
 
 h2{
-  color: rgb(218, 21, 21);
+  background: linear-gradient(to right, rgb(244, 11, 11), rgb(248, 19, 198));
+  background-clip: text;
+  color: transparent;
   font-family: 'ThinFourDown';
   font-size: 2rem;
+  font-synthesis: none;
 }
 
 h3, h4{
-  color: rgb(214, 206, 206);
+  background: linear-gradient(to right, rgb(68, 250, 253), rgb(70, 252, 109));
+  background-clip: text;
+  color: transparent;
   font-size: 1.5rem;
-  font-family: 'Appendix';
+  font-family: 'ThinFourDown';
+  font-synthesis: none;
 }
 
 .stat{
@@ -116,7 +137,6 @@ nav a:hover{
 
 .title{
   text-align: center;
-  color: rgb(202, 201, 201);
 }
 
 #favorite img{
